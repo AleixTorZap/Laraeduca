@@ -1,0 +1,19 @@
+@import 'common.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+[x-cloak] {
+    display: none;
+}
+
+:root {
+    --primary-font: "Inter", sans-serif;
+    --color-primary: #8AB469;
+    --color-secondary: #404040;
+    --another-color: #7ECA42;
+    --another-color-2: #A7DD7D;
+    --another-color-3: #8A8F85;
+}
