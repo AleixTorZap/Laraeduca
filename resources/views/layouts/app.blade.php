@@ -25,13 +25,13 @@
 <body class="font-sans antialiased">
     <x-banner />
 
-    <div class="min-h-screen bg-white>
+    <div class="min-h-screen bg-white">
         @livewire('navigation')
 
 
 
         <!-- Page Content -->
-        <main>
+        <main >
             {{ $slot }}
         </main>
 

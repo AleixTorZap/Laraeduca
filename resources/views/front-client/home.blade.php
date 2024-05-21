@@ -1,48 +1,37 @@
 <x-app-layout>
-
-    <div>
-
-        <main class="pb-4">
-            <div class="bg-cover bg-center bg-no-repeat h-screen flex justify-center items-center flex-col"
-                style="background-image: url('./assets/images/backgroundHome1.png');">
-                <p class="text-3xl text-black text-center">AYÚDANOS A <span style="color: #4CAF50;">CONSERVAR</span>
-                    <br>LA NATURALEZA</p>
+    <header class="bg-blue-500 text-white py-4">
+        <h1 class="text-3xl ml-5">¡Bienvenido a GameMoodle!</h1>
+        <p class="ml-5">Plataforma de Aprendizaje de Videojuegos</p>
+    </header>
+    <div class="container mx-auto py-8">
+        <section class="bg-cover bg-center bg-no-repeat h-80 flex justify-center items-center text-white text-center"
+            style="background-image: url('./assets/images/videojuego.jpg');">
+            <div>
+                <h1 class="text-4xl font-bold mb-4">¡Explora el Mundo de los Videojuegos!</h1>
+                <p class="text-lg">Sumérgete en cursos emocionantes sobre desarrollo de videojuegos, diseño de niveles, narrativa interactiva y más.</p>
             </div>
-        </main>
-
-
-
-    </div>
-    <div class="mt-2 p-16">
-        <div class="flex items-center ">
-            <hr style="flex: 1; border-color: #4CAF50;">
-            <p class="m-0 text-2xl" style="color: #4CAF50">AYÚDANOS A CONSERVAR </p>
-            <hr style="flex: 1; border-color: #4CAF50;">
-        </div>
-        <div class="flex justify-center p-8 ">
-            <p class="text-center  text-2xl">
-                Únete a la mayor organización independiente de defensa de la naturaleza. Gracias al apoyo de nuestros
-                socios y socias podemos seguir luchando por la conservación de lugares únicos y especies en peligro en
-                todo el mundo. Al unirte a WWF estás ayudando a conservar especies amenazadas como el lince y el lobo
-                ibérico y a proteger bosques y océanos. ¡Contamos contigo!, algunos de esos ejemplos los puedes
-                encontrar aquí.
-            </p>
-        </div>
-    </div>
-
-    <div>
-        <div class="mt-2 p-16">
-            <div class="flex items-center ">
-                <hr style="flex: 1; border-color: #4CAF50;">
-                <p class="m-0 text-2xl" style="color: #4CAF50">NOTICIAS RECIENTES </p>
-                <hr style="flex: 1; border-color: #4CAF50;">
+        </section>
+        <section class="my-8">
+            <h2 class="text-2xl font-bold mb-4">Cursos Destacados:</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div class="bg-white rounded-lg shadow-lg p-6">
+                    <h3 class="text-xl font-bold mb-2">Introducción al Desarrollo de Videojuegos</h3>
+                    <p class="text-lg">Aprende los fundamentos del desarrollo de videojuegos, desde la creación de gráficos hasta la programación de mecánicas de juego.</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-6">
+                    <h3 class="text-xl font-bold mb-2">Diseño de Niveles</h3>
+                    <p class="text-lg">Domina las técnicas de diseño de niveles para crear experiencias de juego envolventes y desafiantes.</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-6">
+                    <h3 class="text-xl font-bold mb-2">Narrativa Interactiva</h3>
+                    <p class="text-lg">Explora cómo contar historias de manera efectiva en el contexto de los videojuegos y crea mundos llenos de vida.</p>
+                </div>
             </div>
-            <section><img src="../asseyt/Rectangle 23.png" alt=""></section>
-            <section><img src="../storage/Rectangle 35.png" alt=""></section>
-            <section><img src="../storage/Rectangle 36.png" alt=""></section>
-        </div>
-        <footer class="py-4 border-t border-gray-300">
-            <!-- Pie de página -->
-            <p class="text-center text-gray-600">&copy; 2024 My Website. All rights reserved.</p>
-        </footer>
+        </section>
+        <section class="my-8">
+            <h2 class="text-2xl font-bold mb-4">¿Cómo empezar?</h2>
+            <p class="text-lg">Para comenzar a explorar los cursos disponibles, inicia sesión con tus credenciales proporcionadas por la institución educativa. ¡Prepárate para sumergirte en el emocionante mundo de los videojuegos!</p>
+        </section>
+    </div>
+   
 </x-app-layout>
