@@ -16,7 +16,7 @@ npm install
 php artisan migrate
 
 # Inicia el servidor de desarrollo de Laravel
-php artisan serve &
+php artisan serve 
 
 # Compila los activos JavaScript y CSS
 npm run dev
